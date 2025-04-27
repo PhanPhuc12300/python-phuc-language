@@ -5,7 +5,7 @@ so | int
 viet( | print(
 chay | for
 trong( | in range(
-lap_lai_cho_den_khi | while
+khi | while
 nhap | import
 ds | list
 xau | str
