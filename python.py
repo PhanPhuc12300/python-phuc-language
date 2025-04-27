@@ -170,7 +170,7 @@ try:
     code = code.replace("viet(","print(")
     code = code.replace("chay","for")
     code = code.replace("trong(","in range(")
-    code = code.replace("lap_lai_cho_den_khi","while")
+    code = code.replace("khi","while")
     code = code.replace("nhap","import")
     code = code.replace("ds","list")
     code = code.replace("xau","str")
