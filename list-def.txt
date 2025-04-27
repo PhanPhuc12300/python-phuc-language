@@ -1,0 +1,29 @@
+he_dieu_hanh()
+
+chep_anh(ten_anh)
+
+tao_file(ten_file, noi_dung)
+
+ngau_nhien(*ds)
+
+tim_pi(so_luong)
+
+thong_tin_windows()
+
+ngay_hien_tai()
+
+ngay_le_vn()
+
+ping()
+
+tim_file(file_name, search_path='/')
+
+cai_thu_vien(ten_thu_vien)
+
+bcnn(a, b)
+
+elaina()
+
+nguyen_to(n)
+
+so_chinh_phuong(n)
