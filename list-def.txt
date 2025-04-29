@@ -1,3 +1,5 @@
+tac_vu_dang_chay()
+
 he_dieu_hanh()
 
 chep_anh(ten_anh)
