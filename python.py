@@ -7,6 +7,7 @@ import subprocess
 import sys
 import base64
 import os
+import pygetwindow as gw
 import shutil
 from pathlib import Path
 import time
@@ -23,6 +24,12 @@ import logging
 import traceback
 import subprocess
 import platform
+def tac_vu_dang_chay():
+    windows = gw.getAllTitles()
+    apps = [w for w in windows if w.strip()]  # Bỏ trống
+    if apps[0] in ["Bắt đầu","Start"]:
+        apps.remove(apps[0])
+    return apps
 def he_dieu_hanh():
     he_dieu_hanh = platform.system()
     return he_dieu_hanh
@@ -213,3 +220,4 @@ except NameError as e:
     print(f"Lỗi tên biến: {e}")
 except Exception as e:
     print(f"Lỗi khác: {e}")
+# phat_nhac("C:\\Users\\ad\Music\\fanny-trần--quaniam-remix--audio-lyrics-video.mp3")
